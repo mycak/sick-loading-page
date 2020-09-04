@@ -107,8 +107,26 @@
     20% {
       stop-color: rgb(162, 206, 43);
     }
+    30% {
+      stop-color: #68169e;
+    }
+    40% {
+      stop-color: #c8df45;
+    }
     50% {
       stop-color: rgb(161, 79, 182);
+    }
+    60% {
+      stop-color: #cab452;
+    }
+    70% {
+      stop-color: #42a069;
+    }
+    80% {
+      stop-color: #46501c;
+    }
+    90% {
+      stop-color: #5d96c5;
     }
     to {
       stop-color: hsl(133, 45%, 43%);
@@ -130,8 +148,26 @@
     20% {
       stop-color: #2cb4c0;
     }
+    30% {
+      stop-color: hsl(268, 56%, 74%);
+    }
+    40% {
+      stop-color: #445d45;
+    }
     50% {
       stop-color: hsl(240, 49%, 41%);
+    }
+    60% {
+      stop-color: #536846;
+    }
+    70% {
+      stop-color: #4a3fee;
+    }
+    80% {
+      stop-color: #c02c8f;
+    }
+    90% {
+      stop-color: #721a1a;
     }
     to {
       stop-color: rgb(32, 168, 32);
