@@ -96,24 +96,45 @@
   }
   @keyframes gradient1 {
     from {
-      stop-color: hsl(305, 63%, 61%);
+      stop-color: rgb(112, 68, 68);
+    }
+    10% {
+      stop-color: rgb(0, 255, 98);
+    }
+    15% {
+      stop-color: #fffb00;
+    }
+    20% {
+      stop-color: rgb(162, 206, 43);
     }
     50% {
-      stop-color: hsl(32, 89%, 45%);
+      stop-color: rgb(161, 79, 182);
     }
     to {
-      stop-color: hsl(318, 62%, 49%);
+      stop-color: hsl(133, 45%, 43%);
     }
   }
   @keyframes gradient2 {
     from {
-      stop-color: hsl(318, 62%, 49%);
+      stop-color: rgb(230, 215, 5);
+    }
+    10% {
+      stop-color: hsl(189, 49%, 41%);
+    }
+    12% {
+      stop-color: hsl(300, 78%, 44%);
+    }
+    15% {
+      stop-color: rgb(212, 61, 61);
+    }
+    20% {
+      stop-color: #2cb4c0;
     }
     50% {
-      stop-color: hsl(61, 71%, 51%);
+      stop-color: hsl(240, 49%, 41%);
     }
     to {
-      stop-color: hsl(59, 63%, 61%);
+      stop-color: rgb(32, 168, 32);
     }
   }
   @keyframes rotate {
@@ -131,10 +152,10 @@
     height: auto;
   }
   svg#loading #gradient > stop[offset="0%"] {
-    animation: gradient1 15s ease 0s infinite;
+    animation: gradient1 20s ease 0s infinite;
   }
   svg#loading #gradient > stop[offset="100%"] {
-    animation: gradient2 15s ease 0s infinite;
+    animation: gradient2 20s ease 0s infinite;
   }
   svg#loading .rect {
     animation: slide 15s ease infinite;
