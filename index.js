@@ -1,10 +1,22 @@
 const loadingPage = document.querySelector('.loadingPage--container');
 const animatedSvg = document.querySelector('.svg');
 
+const animation = () => {
+    setTimeout(() => {
+        loadingPage.classList.add('active');
+        animatedSvg.classList.add('exit');
+        setTimeout(() => {
+            loadingPage.classList.remove('active');
+            setTimeout(() => {
+                animatedSvg.classList.remove('exit');
+            },1000)
+        },3000)
+    },1000)
+}
+
+animation();
+
 setInterval(() => {
-    loadingPage.classList.add('active');
-    animatedSvg.classList.add('exit');
-    setInterval(() => {
-        loadingPage.classList.remove('active');
-    },3000)
-},1000)
+    animation();
+}, 8000);
+
